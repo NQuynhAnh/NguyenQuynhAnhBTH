@@ -8,45 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NguyenQuynhAnhBTH
 build_property.RootNamespace = NguyenQuynhAnhBTH
-build_property.ProjectDir = E:\NetCore\NguyenQuynhAnhBTH\
+build_property.ProjectDir = e:\NetCore\NguyenQuynhAnhBTH\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\NetCore\NguyenQuynhAnhBTH
+build_property.MSBuildProjectDirectory = e:\NetCore\NguyenQuynhAnhBTH
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/NetCore/NguyenQuynhAnhBTH/Views/HelloWorld/Index.cshtml]
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Employee/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/NetCore/NguyenQuynhAnhBTH/Views/HelloWorld/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCore/NguyenQuynhAnhBTH/Views/HelloWorld/Welcome.cshtml]
+[e:/NetCore/NguyenQuynhAnhBTH/Views/HelloWorld/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCore/NguyenQuynhAnhBTH/Views/Home/Index.cshtml]
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCore/NguyenQuynhAnhBTH/Views/Home/Privacy.cshtml]
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCore/NguyenQuynhAnhBTH/Views/Shared/Error.cshtml]
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Person/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCore/NguyenQuynhAnhBTH/Views/Shared/_ValidationScriptsPartial.cshtml]
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCore/NguyenQuynhAnhBTH/Views/_ViewImports.cshtml]
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Student/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/NetCore/NguyenQuynhAnhBTH/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCore/NguyenQuynhAnhBTH/Views/_ViewStart.cshtml]
+[e:/NetCore/NguyenQuynhAnhBTH/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCore/NguyenQuynhAnhBTH/Views/Shared/_Layout.cshtml]
+[e:/NetCore/NguyenQuynhAnhBTH/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tl83ffqqg7
