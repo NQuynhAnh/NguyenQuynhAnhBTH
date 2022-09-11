@@ -1,0 +1,41 @@
+<h2>danh sách sinh viên</h2>
+<hr>
+<table class="table border">
+    <tr>
+        <th>
+            <label>ma sinh vien</label>
+        </th>
+        <th>
+            <label>ten sinh vien</label>
+        </th>
+        <th>
+            <label>tuoi</label>
+        </th>
+    </tr>
+    <tr>
+        @foreach (var item in ViewData["Students"] as List<Student>)
+            {
+                <tr>
+                    <td>@item.StudentID</td>
+                    <td>@item.StudentName</td>
+                    <td>@item.StudentAge</td>
+                </tr>
+            }
+    </tr>
+</table>
+
+<!--code đã chạy được
+<h1>View Index Person</h1>
+<form asp-action="Index">
+    <label>Person Id: </label>
+    <input type="number" name="PersonId">
+    <br>
+    <label>Person Name: </label>
+    <input type="string" name="PersonName">
+    <br>
+    <label>Person Age: </label>
+    <input type="number" name="PersonAge">
+    <br>
+    <input type="submit" value="Save">
+</form>
+<h2>@ViewBag.ThongBao</h2>-->
