@@ -21,14 +21,14 @@ using NguyenQuynhAnhBTH.Models;
             return View();
         }
        
-        [HttpPost]
-        public IActionResult Create(Employee std)
-        {
-            string message = std.EmployeeID + "_";
-            message += std.EmployeeName + "_";
-            message += std.EmployeeAge;
-            ViewBag.TT = message;
-            return View();
-        }  
+        // [HttpPost]
+        // public IActionResult Create(Employee std)
+        // {
+        //     string message = std.EmployeeID + "_";
+        //     message += std.EmployeeName + "_";
+        //     message += std.EmployeeAge;
+        //     ViewBag.TT = message;
+        //     return View();
+        // }  
      }
  }

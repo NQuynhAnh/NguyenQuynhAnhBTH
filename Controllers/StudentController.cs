@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using NguyenQuynhAnhBTH.Models;
+using System.Text.Encodings.Web;
 
 namespace NguyenQuynhAnhBTH.Controllers
  {
@@ -21,7 +22,8 @@ namespace NguyenQuynhAnhBTH.Controllers
         //code mới k chạy được
         public ActionResult Index()
         {
-            List<Student> StdList= new List<Student>
+            //khoi tao list student
+            List<Student> stdList= new List<Student>
             { 
                 new Student { StudentID = 1, StudentName = "Nguyen Van A", StudentAge = 18 },
                 new Student { StudentID = 2, StudentName = "Nguyen Van B", StudentAge = 18 },
@@ -31,18 +33,23 @@ namespace NguyenQuynhAnhBTH.Controllers
                 new Student { StudentID = 6, StudentName = "Nguyen Van F", StudentAge = 18 },
                 new Student { StudentID = 7, StudentName = "Nguyen Van G", StudentAge = 18 },
             };
-            ViewData["Students"] = StdList;
+            ViewData["Students"] = stdList;
+            return View();
+        }
+
+        public IActionResult Create()
+        {
             return View();
         }
        
-        [HttpPost]
-        public IActionResult Create(Student std)
-        {
-            string message = std.StudentID + "_";
-            message += std.StudentName + "_";
-            message += std.StudentAge;
-            ViewBag.TT = message;
-            return View();
-        }  
+        //[HttpPost]
+        //public IActionResult Create()
+        //{
+            //string message = std.StudentID + "_";
+            //message += std.StudentName + "_";
+            //message += std.StudentAge;
+            //ViewBag.TT = message;
+            //return View();
+        //} 
     }
  }

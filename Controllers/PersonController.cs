@@ -21,14 +21,14 @@ namespace NguyenQuynhAnhBTH.Controllers
             return View();
         }
        
-        [HttpPost]
-        public IActionResult Create(Person std)
-        {
-            string message = std.PersonId + "_";
-            message += std.PersonName + "_";
-            message += std.PersonAge;
-            ViewBag.TT = message;
-            return View();
-        }  
+        // [HttpPost]
+        // public IActionResult Create(Person std)
+        // {
+        //     string message = std.PersonId + "_";
+        //     message += std.PersonName + "_";
+        //     message += std.PersonAge;
+        //     ViewBag.TT = message;
+        //     return View();
+        // }  
     }
 }
