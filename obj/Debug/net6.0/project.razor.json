@@ -16366,11 +16366,6 @@
       "FilePath": "e:\\NetCore\\NguyenQuynhAnhBTH\\Views\\HelloWorld\\Index.cshtml",
       "TargetPath": "Views\\HelloWorld\\Index.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NetCore\\NguyenQuynhAnhBTH\\Views\\Student\\Create.cshtml",
-      "TargetPath": "Views\\Student\\Create.cshtml",
-      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
